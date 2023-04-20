@@ -9,6 +9,12 @@ public class Quad extends Shape {
         if (length >0) this.length = length;
         else System.out.println("Вы ввели не правильные данные :");
     }
+
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
     @Override
     public void getArea() {
         double res = length * length;

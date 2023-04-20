@@ -17,6 +17,11 @@ public class Triangle extends IsoscelesTriangle {
     }
 
     @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
     public void getArea() {
         double p = (sideA + sideB + sideC) / 2;
         double res = Math. sqrt(p * ((p - sideA)*(p - sideB)*(p - sideC)));

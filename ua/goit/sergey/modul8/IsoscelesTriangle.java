@@ -18,6 +18,11 @@ public class IsoscelesTriangle extends EquilateralTtriangle {
     }
 
     @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
     public void getArea() {
         double res = (sideA * (Math. sqrt(4*(sideA*sideA) - (sideC*sideC))/2))/2;
         if (sideA > 0 && sideC > 0)System.out.printf("Площадь %s = %.2f ; \n", name ,res);

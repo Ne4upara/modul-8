@@ -8,6 +8,12 @@ class Rectangle extends Quad {
         if (width > 0)this.width = width;
         else System.out.println("Вы ввели не правильные данные :");
     }
+
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
     @Override
     public void getArea() {
 

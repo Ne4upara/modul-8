@@ -2,6 +2,11 @@ package ua.goit.sergey.modul8;
 
 public class Circle extends Shape implements Constants {
 
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
     protected double radiusA;
 
 

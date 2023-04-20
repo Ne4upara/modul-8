@@ -10,6 +10,11 @@ public class Trapezoid extends Rectangle {
     }
 
     @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
     public void getArea() {
         double res = (((1/2f)*(length+width)) * heigth);
         if (length > 0 && width > 0 && heigth > 0) System.out.printf("Площадь  = %.2f ; \n", res);

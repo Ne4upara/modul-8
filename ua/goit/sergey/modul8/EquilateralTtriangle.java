@@ -17,6 +17,10 @@ public class EquilateralTtriangle extends Shape {
 
     }
 
+    public EquilateralTtriangle(String name) {
+        super(name);
+    }
+
     @Override
     public void getArea() {
         double res = ((sideA*sideA)*Math. sqrt(3))/4;

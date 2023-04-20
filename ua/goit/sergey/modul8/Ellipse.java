@@ -10,6 +10,11 @@ public class Ellipse extends Circle implements Constants {
     }
 
     @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
     public void getArea() {
         double res = (PI * radiusA * radiusB);
         if (radiusA > 0 && radiusB > 0)System.out.printf("Площадь %sа = %.2f ; \n", name, res);
